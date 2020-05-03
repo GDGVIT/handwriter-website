@@ -1,0 +1,66 @@
+baseurl = "/"
+languageCode = "en-us"
+theme = "terminal"
+paginate = 5
+
+[params]
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName = "installer"
+
+  # ["orange", "blue", "red", "green", "pink"]
+  themeColor = "green"
+
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 0
+
+  # show selector to switch language
+  showLanguageSelector = false
+
+  # set theme to full screen width
+  fullWidthTheme = false
+
+  # center theme with default width
+  centerTheme = true
+
+  # set a custom favicon (default is a `themeColor` square)
+  # favicon = "favicon.ico"
+
+  # set all headings to their default size (depending on browser settings)
+  # it's set to `true` by default
+   oneHeadingSize = true
+
+[params.twitter]
+  # set Twitter handles for Twitter cards
+  # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
+  # do not include @
+  creator = ""
+  site = ""
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "HandWriter"
+    owner = "DSC-VIT"
+    keywords = ""
+    copyright = ""
+    menuMore = ""
+    readMore = ""
+    readOtherPosts = ""
+
+    [languages.en.params.logo]
+      logoText = "DSC-VIT"
+      logoHomeLink = "https://dscvit.com/"
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "Windows/macOS"
+        name = "Windows/macOS"
+        url = "/installer/home"
+      [[languages.en.menu.main]]
+        identifier = "Linux Install Script"
+        name = "Linux Install Script"
+        url = "/installer/linux"
+      [[languages.en.menu.main]]
+        identifier = "Linux Install (Manual)"
+        name = "Linux Install (Manual)"
+        url = "/installer/manual_install"
+          

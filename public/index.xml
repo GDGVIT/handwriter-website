@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HandWriter</title>
+    <link>/</link>
+    <description>Recent content on HandWriter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Install HandWriter</title>
+      <link>/posts/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/home/</guid>
+      <description>HandWriter can be installed on Windows and MacOS using installers:
+ Windows installer MacOS installer  Installing on Linux An installation script has been provided that takes care of everything for you. Alternatively, you can install HandWriter manually as explained below. Installing using the install script curl https://github.com/GDGVIT/HandWriter/raw/master/install.sh -o ~/handwriter-installer.sh -L chmod a+x ~/handwriter-installer.sh ~/handwriter-installer.sh You can remove the script once you&amp;rsquo;re done
+rm ~/handwriter-installer.sh Installing manually Fedora To manage HandWriter with Fedora&amp;rsquo;s (or CentOS&amp;rsquo;) package manager -</description>
+    </item>
+    
+  </channel>
+</rss>

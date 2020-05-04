@@ -14,8 +14,7 @@ wget https://github.com/GDGVIT/HandWriter/raw/master/install.sh -O ~/handwriter-
 ```
 Execute the script
 ```bash
-chmod a+x ~/handwriter-installer.sh
-~/handwriter-installer.sh
+chmod a+x ~/handwriter-installer.sh && ~/handwriter-installer.sh
 ```
 You can remove the script once you're done.
 

@@ -13,3 +13,5 @@ An installation script has been provided that takes care of everything for you. 
 
 If you would rather install everything manually, steps to do so can be found here -
 * [Install manually](/installer/manual_install/)
+
+The source repo for HandWriter can be found [here](https://github.com/GDGVIT/HandWriter)
